@@ -1,0 +1,4 @@
+name = ''
+while not name or name.isspace():
+    name = input('Please enter your name: ')
+print('Hello, {}!'.format(name))
